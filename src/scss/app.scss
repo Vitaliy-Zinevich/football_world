@@ -1,0 +1,7 @@
+@import './variables';
+@import './components/all';
+@import './libs/normalize';
+
+body {
+  background-color: $background;
+}
