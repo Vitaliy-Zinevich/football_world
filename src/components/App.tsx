@@ -1,12 +1,11 @@
 import React from 'react';
-import Header from './Header';
-import Main from './Main';
+import '../scss/app.scss';
+import Project from './Project';
 
 const App: React.FC = () => {
   return (
-    <div className="wrapper">
-      <Header />
-      <Main />
+    <div>
+      <Project />
     </div>
   );
 };
