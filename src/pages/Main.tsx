@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
+import MainTop from './Main/MainTop';
 
 const Main: React.FC = () => {
   return (
     <div className="main">
-      <div className="main__top">Main</div>
+      <MainTop />
     </div>
   );
 };
