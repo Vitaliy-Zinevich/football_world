@@ -8,10 +8,7 @@
 
   &__top {
     height: 570px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(165, 162, 162);
-    cursor: pointer;
+    text-decoration: none;
 
     &__news-img {
       background-image: url('https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1623&q=80');
@@ -24,11 +21,42 @@
       font-size: 22px;
       padding-top: 10px;
       font-weight: 700;
+      color: black;
+      border: 1px solid black;
+      border-bottom: none;
     }
 
     &__news-time {
       padding-left: 25px;
       font-size: 14px;
+      color: black;
+      border: 1px solid black;
+      border-top: none;
+    }
+  }
+}
+
+.mainNews__block {
+  width: 800px;
+  position: absolute;
+  padding-top: 70px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+  &__img {
+    height: 350px;
+    background-image: url('https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1623&q=80');
+    background-size: 100% 100%;
+  }
+
+  &__text {
+    padding-top: 10px;
+    font-size: 15px;
+    margin: 1px 2px 5px 2px;
+
+    h1 {
+      text-align: center;
     }
   }
 }
