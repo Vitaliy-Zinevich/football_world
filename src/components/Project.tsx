@@ -7,6 +7,8 @@ import News from '../pages/News';
 import Person from '../pages/Person';
 import Search from '../pages/Search';
 import MainNews from '../pages/Main/MainNews';
+import LoginPage from '../pages/Authorization/LoginPage';
+import RegisterPage from '../pages/Authorization/RegisterPage';
 
 const Project: React.FC = () => {
   return (
@@ -19,6 +21,8 @@ const Project: React.FC = () => {
         <Route path="/search" element={<Search />} />
         <Route path="/person" element={<Person />} />
         <Route path="/mainNews" element={<MainNews />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/register" element={<RegisterPage />} />
       </Routes>
     </div>
   );

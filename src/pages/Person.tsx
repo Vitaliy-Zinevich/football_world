@@ -1,9 +1,9 @@
-import React from 'react';
+import { Navigate } from 'react-router-dom';
 
 const Person: React.FC = () => {
   return (
     <div className="person">
-      <div className="person__top"> Person</div>
+      <Navigate to="/login" />
     </div>
   );
 };
