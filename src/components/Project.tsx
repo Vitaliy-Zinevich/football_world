@@ -6,7 +6,7 @@ import Matches from '../pages/Matches';
 import News from '../pages/News';
 import Person from '../pages/Person';
 import Search from '../pages/Search';
-import MainNews from '../pages/Main/MainNews';
+import MainNews from '../pages/MainTop/MainNews';
 import LoginPage from '../pages/Authorization/LoginPage';
 import RegisterPage from '../pages/Authorization/RegisterPage';
 
