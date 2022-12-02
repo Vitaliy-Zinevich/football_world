@@ -5,7 +5,7 @@ const Header: React.FC = () => {
   return (
     <div className="header">
       <div className="header__wrapper">
-        <Link to="/" className="header__wrapper__logo">
+        <Link to="/*" className="header__wrapper__logo">
           FootballWorld
         </Link>
         <Link to="/news" className="header__wrapper__news">

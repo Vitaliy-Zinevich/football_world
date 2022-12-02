@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import MainMenu from './MainMenu/MainMenu';
 import MainTop from './MainTop/MainTop';
 

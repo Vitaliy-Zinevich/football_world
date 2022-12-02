@@ -1,7 +1,7 @@
 import React from 'react';
 
 const England = () => {
-  return <div>England</div>;
+  return <div></div>;
 };
 
 export default England;
